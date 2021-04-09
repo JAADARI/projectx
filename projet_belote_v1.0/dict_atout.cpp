@@ -3,7 +3,7 @@
 using namespace std;
 
 
-int dictionnaire_atout(int card){
+int dict_atout(int card){
 
 	int result =0;
 
