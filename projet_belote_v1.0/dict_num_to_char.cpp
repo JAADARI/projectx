@@ -1,7 +1,7 @@
 /*
 
-	dictionnaire.cpp : Sert de traducteur pour passer du numérique à la chaîne de caractère
-		- On donne un int entre 1 et 32 et on retourne un char* (nécessite d'appeler la fonction dans un printf)
+	dict_num_to_char.cpp : Sert de traducteur pour passer du numérique à la chaîne de caractère
+		- On donne un int entre 1 et 32 et on retourne un char 
 
 */
 
@@ -9,7 +9,7 @@
 #include<string>
 using namespace std;
 
-char dictionnaire(int card){
+char dict_num_to_char(int card){
 	string result = "val";
 
 	switch(card){
