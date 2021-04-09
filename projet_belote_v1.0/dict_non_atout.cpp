@@ -3,7 +3,7 @@
 using namespace std;
 
 
-int dictionnaire_non_atout(int card){
+int dict_non_atout(int card){
 
 	int result = 0;
 
